@@ -3,8 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>The Girl Code Backend</title>
+	<title>The Girl Code</title>
+	<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 	<link rel="stylesheet" type="text/css" href="/stylesheets/forms.css">
+	<link rel="stylesheet" href="https://use.typekit.net/hjk6uuj.css">
 </head>
 <body>
 	<div class="limiter">
@@ -29,10 +31,28 @@
 						<span class="focus-an-input" data-placeholder="Password"></span>
 					</div>
 
+					<p>Been here before? <a href="/login">Sign in using your current account.</a></p>
+
 					<div class="formbutton">
 						<div class="form-in-button">
 							<div class="bgbutton"></div>
 							<button class="loginbutton" type="submit">Sign Up</button>
+						</div>
+					</div>
+
+					<div class="formbutton">
+						<div class="form-in-button google-signin">
+							<div class="bgbutton"></div>
+							<img src="/img/g-logo.png" class="google-signin-logo">
+							<a class="loginbutton" href="/users/google">Login with Google</a>
+						</div>
+					</div>
+
+					<div class="formbutton">
+						<div class="form-in-button facebook-signin">
+							<div class="bgbutton"></div>
+							<img src="/img/f-logo.png" class="facebook-signin-logo">
+							<a class="loginbutton" href="/users/facebook">Login with Facebook</a>
 						</div>
 					</div>
 
@@ -43,7 +63,6 @@
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="/javascripts/signup.js"></script>
-<script src="/javascripts/login.js"></script>
 
 </body>
 </html>
